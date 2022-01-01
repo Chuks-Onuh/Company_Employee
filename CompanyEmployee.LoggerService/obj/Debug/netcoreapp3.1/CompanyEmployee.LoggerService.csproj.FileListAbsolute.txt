@@ -1,0 +1,13 @@
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.deps.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.csproj.AssemblyReference.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.AssemblyInfoInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.AssemblyInfo.cs
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.csproj.CoreCompileInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.csproj.CopyComplete
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.pdb

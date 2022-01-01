@@ -19,3 +19,12 @@ C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\obj\De
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\obj\Debug\netcoreapp3.1\CompanyEmployee.API.dll
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\obj\Debug\netcoreapp3.1\CompanyEmployee.API.pdb
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\obj\Debug\netcoreapp3.1\CompanyEmployee.API.genruntimeconfig.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\nlog.config
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.API\obj\Debug\netcoreapp3.1\CompanyEmployee.API.csproj.CopyComplete

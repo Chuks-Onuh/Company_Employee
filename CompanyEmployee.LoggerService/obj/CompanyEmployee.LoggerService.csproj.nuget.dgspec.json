@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj",
+        "projectName": "CompanyEmployee.Contracts",
+        "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Onuhac\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Onuhac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj",
+        "projectName": "CompanyEmployee.LoggerService",
+        "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj",
+        "packagesPath": "C:\\Users\\Onuhac\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Onuhac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj": {
+                "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

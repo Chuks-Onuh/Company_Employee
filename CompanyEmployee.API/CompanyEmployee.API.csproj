@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyEmployee.LoggerService\CompanyEmployee.LoggerService.csproj" />
+  </ItemGroup>
+
 
 </Project>
