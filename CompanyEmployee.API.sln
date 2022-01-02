@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployee.API", "CompanyEmployee.API\CompanyEmployee.API.csproj", "{7782DE41-2D33-4E5D-A9E3-2CF17715F348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployee.Contracts", "CompanyEmployee.Contracts\CompanyEmployee.Contracts.csproj", "{42E54081-4F74-4C9D-9A99-AD200CA9873A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployee.Contracts", "CompanyEmployee.Contracts\CompanyEmployee.Contracts.csproj", "{42E54081-4F74-4C9D-9A99-AD200CA9873A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployee.LoggerService", "CompanyEmployee.LoggerService\CompanyEmployee.LoggerService.csproj", "{A8FEB678-4AE2-4C6B-A81C-F31E659D9B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployee.LoggerService", "CompanyEmployee.LoggerService\CompanyEmployee.LoggerService.csproj", "{A8FEB678-4AE2-4C6B-A81C-F31E659D9B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployee.Entities", "CompanyEmployee.Entities\CompanyEmployee.Entities.csproj", "{4ABD11E5-FC1B-4DC2-8DA7-CF296213CDE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A8FEB678-4AE2-4C6B-A81C-F31E659D9B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FEB678-4AE2-4C6B-A81C-F31E659D9B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FEB678-4AE2-4C6B-A81C-F31E659D9B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABD11E5-FC1B-4DC2-8DA7-CF296213CDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABD11E5-FC1B-4DC2-8DA7-CF296213CDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABD11E5-FC1B-4DC2-8DA7-CF296213CDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABD11E5-FC1B-4DC2-8DA7-CF296213CDE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

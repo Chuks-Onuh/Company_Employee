@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace CompanyEmployee.Contracts
 {
     public interface ILoggerManager

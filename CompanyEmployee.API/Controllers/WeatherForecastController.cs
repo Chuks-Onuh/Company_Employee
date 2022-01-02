@@ -1,10 +1,6 @@
 ﻿using CompanyEmployee.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CompanyEmployee.API.Controllers
 {
@@ -25,6 +21,7 @@ namespace CompanyEmployee.API.Controllers
             _logger.LogDebug("Here is debug message from our values controller."); 
             _logger.LogWarn("Here is warn message from our values controller."); 
             _logger.LogError("Here is an error message from our values controller."); 
+
             return new string[] { "value1", "value2" }; 
         }
     }
