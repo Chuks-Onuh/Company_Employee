@@ -28,9 +28,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj": {
-                "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj"
-              },
               "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj": {
                 "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj"
               },
@@ -50,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -102,7 +103,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj": {
+                "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -11,3 +11,5 @@ C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerServ
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.csproj.CopyComplete
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.dll
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\obj\Debug\netcoreapp3.1\CompanyEmployee.LoggerService.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.LoggerService\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.pdb

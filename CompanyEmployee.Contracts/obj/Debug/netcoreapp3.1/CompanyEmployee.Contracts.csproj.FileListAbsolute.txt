@@ -8,3 +8,6 @@ C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\obj\Debug\netcoreapp3.1\CompanyEmployee.Contracts.csproj.CoreCompileInputs.cache
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\obj\Debug\netcoreapp3.1\CompanyEmployee.Contracts.dll
 C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\obj\Debug\netcoreapp3.1\CompanyEmployee.Contracts.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Contracts\obj\Debug\netcoreapp3.1\CompanyEmployee.Contracts.csproj.CopyComplete

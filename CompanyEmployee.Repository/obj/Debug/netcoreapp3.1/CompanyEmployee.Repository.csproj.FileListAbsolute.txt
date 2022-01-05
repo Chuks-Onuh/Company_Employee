@@ -1,0 +1,15 @@
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Repository.deps.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Repository.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Repository.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Contracts.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.csproj.AssemblyReference.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.AssemblyInfoInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.AssemblyInfo.cs
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.csproj.CoreCompileInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.csproj.CopyComplete
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Repository\obj\Debug\netcoreapp3.1\CompanyEmployee.Repository.pdb

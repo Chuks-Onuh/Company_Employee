@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj": {
+                "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
