@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CompanyEmployee.Entities\CompanyEmployee.Entities.csproj" />
     <ProjectReference Include="..\CompanyEmployee.LoggerService\CompanyEmployee.LoggerService.csproj" />
+    <ProjectReference Include="..\CompanyEmployee.Repository\CompanyEmployee.Repository.csproj" />
   </ItemGroup>
 
 

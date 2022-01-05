@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyEmployee.Contracts\CompanyEmployee.Contracts.csproj" />
+    <ProjectReference Include="..\CompanyEmployee.Entities\CompanyEmployee.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
