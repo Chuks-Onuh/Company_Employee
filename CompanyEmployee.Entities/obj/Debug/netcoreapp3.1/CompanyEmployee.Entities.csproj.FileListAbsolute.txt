@@ -1,0 +1,13 @@
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.deps.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.runtimeconfig.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.runtimeconfig.dev.json
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\bin\Debug\netcoreapp3.1\CompanyEmployee.Entities.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.csproj.AssemblyReference.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.AssemblyInfoInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.AssemblyInfo.cs
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.csproj.CoreCompileInputs.cache
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.dll
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.pdb
+C:\Code\Projects\Company Employee\CompanyEmployee.API\CompanyEmployee.Entities\obj\Debug\netcoreapp3.1\CompanyEmployee.Entities.genruntimeconfig.cache
