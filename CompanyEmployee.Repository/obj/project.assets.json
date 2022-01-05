@@ -2,16 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Humanizer.Core/2.8.26": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {}
-        }
-      },
-      "Microsoft.CSharp/4.7.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -123,23 +114,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Design/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Humanizer.Core": "2.8.26",
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "build": {
-          "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
@@ -453,28 +427,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
-        }
-      },
-      "NLog/4.7.11": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/NLog.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/NLog.dll": {}
-        }
-      },
-      "NLog.Extensions.Logging/1.7.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.0.0",
-          "NLog": "4.7.11"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1554,58 +1506,14 @@
         "runtime": {
           "bin/placeholder/CompanyEmployee.Entities.dll": {}
         }
-      },
-      "CompanyEmployee.LoggerService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "CompanyEmployee.Contracts": "1.0.0",
-          "NLog.Extensions.Logging": "1.7.4"
-        },
-        "compile": {
-          "bin/placeholder/CompanyEmployee.LoggerService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CompanyEmployee.LoggerService.dll": {}
-        }
-      },
-      "CompanyEmployee.Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "CompanyEmployee.Contracts": "1.0.0",
-          "CompanyEmployee.Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CompanyEmployee.Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CompanyEmployee.Repository.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Humanizer.Core/2.8.26": {
-      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
-      "path": "humanizer.core/2.8.26",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "humanizer.core.2.8.26.nupkg.sha512",
-        "humanizer.core.nuspec",
-        "lib/netstandard1.0/Humanizer.dll",
-        "lib/netstandard1.0/Humanizer.xml",
-        "lib/netstandard2.0/Humanizer.dll",
-        "lib/netstandard2.0/Humanizer.xml",
-        "logo.png"
-      ]
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "type": "package",
-      "path": "microsoft.csharp/4.7.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1618,7 +1526,6 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1628,7 +1535,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1792,21 +1699,6 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Design/5.0.0": {
-      "sha512": "kyd66aJDTZjpo4awTpJb6BOVGnhS/pZgD3O2JH1A9QhtE+0kqEVXJLpNN9CPfbKWERipXAEUyUadPHNclZCc3g==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
@@ -2305,65 +2197,6 @@
         "newtonsoft.json.10.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
-      ]
-    },
-    "NLog/4.7.11": {
-      "sha512": "A7EpoOjWesV5BPx1cOiBndazZq1VGdagIs6oK8ttcRDl5adCMtHiTqnsD5yYaOrMxOQeCjHBf/w3nKzCmhGbgw==",
-      "type": "package",
-      "path": "nlog/4.7.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid44/NLog.dll",
-        "lib/monoandroid44/NLog.xml",
-        "lib/net35/NLog.dll",
-        "lib/net35/NLog.xml",
-        "lib/net40-client/NLog.dll",
-        "lib/net40-client/NLog.xml",
-        "lib/net45/NLog.dll",
-        "lib/net45/NLog.xml",
-        "lib/netstandard1.3/NLog.dll",
-        "lib/netstandard1.3/NLog.xml",
-        "lib/netstandard1.5/NLog.dll",
-        "lib/netstandard1.5/NLog.xml",
-        "lib/netstandard2.0/NLog.dll",
-        "lib/netstandard2.0/NLog.xml",
-        "lib/sl4/NLog.dll",
-        "lib/sl4/NLog.xml",
-        "lib/sl5/NLog.dll",
-        "lib/sl5/NLog.xml",
-        "lib/wp8/NLog.dll",
-        "lib/wp8/NLog.xml",
-        "lib/xamarinios10/NLog.dll",
-        "lib/xamarinios10/NLog.xml",
-        "nlog.4.7.11.nupkg.sha512",
-        "nlog.nuspec"
-      ]
-    },
-    "NLog.Extensions.Logging/1.7.4": {
-      "sha512": "/dMxI/lBPNhKe9uONCQaZ3JYSHJh9/yez4Uqc6yIo2hIGaoi8sbQg7WQqW5/1WAIquhrG/SeCEZUTGMiRSQAHw==",
-      "type": "package",
-      "path": "nlog.extensions.logging/1.7.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "N.png",
-        "lib/net451/NLog.Extensions.Logging.dll",
-        "lib/net451/NLog.Extensions.Logging.xml",
-        "lib/net461/NLog.Extensions.Logging.dll",
-        "lib/net461/NLog.Extensions.Logging.xml",
-        "lib/net5.0/NLog.Extensions.Logging.dll",
-        "lib/net5.0/NLog.Extensions.Logging.xml",
-        "lib/netcoreapp3.0/NLog.Extensions.Logging.dll",
-        "lib/netcoreapp3.0/NLog.Extensions.Logging.xml",
-        "lib/netstandard1.3/NLog.Extensions.Logging.dll",
-        "lib/netstandard1.3/NLog.Extensions.Logging.xml",
-        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
-        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
-        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
-        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
-        "nlog.extensions.logging.1.7.4.nupkg.sha512",
-        "nlog.extensions.logging.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5895,24 +5728,12 @@
       "type": "project",
       "path": "../CompanyEmployee.Entities/CompanyEmployee.Entities.csproj",
       "msbuildProject": "../CompanyEmployee.Entities/CompanyEmployee.Entities.csproj"
-    },
-    "CompanyEmployee.LoggerService/1.0.0": {
-      "type": "project",
-      "path": "../CompanyEmployee.LoggerService/CompanyEmployee.LoggerService.csproj",
-      "msbuildProject": "../CompanyEmployee.LoggerService/CompanyEmployee.LoggerService.csproj"
-    },
-    "CompanyEmployee.Repository/1.0.0": {
-      "type": "project",
-      "path": "../CompanyEmployee.Repository/CompanyEmployee.Repository.csproj",
-      "msbuildProject": "../CompanyEmployee.Repository/CompanyEmployee.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CompanyEmployee.Entities >= 1.0.0",
-      "CompanyEmployee.LoggerService >= 1.0.0",
-      "CompanyEmployee.Repository >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.0"
+      "CompanyEmployee.Contracts >= 1.0.0",
+      "CompanyEmployee.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5921,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.API\\CompanyEmployee.API.csproj",
-      "projectName": "CompanyEmployee.API",
-      "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.API\\CompanyEmployee.API.csproj",
+      "projectUniqueName": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Repository\\CompanyEmployee.Repository.csproj",
+      "projectName": "CompanyEmployee.Repository",
+      "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Repository\\CompanyEmployee.Repository.csproj",
       "packagesPath": "C:\\Users\\Onuhac\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.API\\obj\\",
+      "outputPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Onuhac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5942,14 +5763,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj": {
+              "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Contracts\\CompanyEmployee.Contracts.csproj"
+            },
             "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj": {
               "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Entities\\CompanyEmployee.Entities.csproj"
-            },
-            "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj": {
-              "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.LoggerService\\CompanyEmployee.LoggerService.csproj"
-            },
-            "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Repository\\CompanyEmployee.Repository.csproj": {
-              "projectPath": "C:\\Code\\Projects\\Company Employee\\CompanyEmployee.API\\CompanyEmployee.Repository\\CompanyEmployee.Repository.csproj"
             }
           }
         }
@@ -5963,14 +5781,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -5982,9 +5792,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
