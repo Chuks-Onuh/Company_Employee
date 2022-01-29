@@ -4,7 +4,6 @@ using CompanyEmployee.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CompanyEmployee.Repository
 {
@@ -13,6 +12,8 @@ namespace CompanyEmployee.Repository
         public CompanyRepository(ApplicationContext context) : base(context) { }
 
         public void CreateCompany(Company company) => Create(company);
+
+        public void DeleteCompany(Company company) => Delete(company);
 
         public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
             FindAll(trackChanges)

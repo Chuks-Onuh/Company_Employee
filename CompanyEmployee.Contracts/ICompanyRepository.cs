@@ -11,5 +11,6 @@ namespace CompanyEmployee.Contracts
         Company GetCompany(Guid CompanyId, bool trackChanges);
         void CreateCompany(Company company);
         IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
+        void DeleteCompany(Company company);
     }
 }
