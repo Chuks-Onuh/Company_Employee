@@ -1,9 +1,11 @@
 ﻿using CompanyEmployee.Contracts;
 using CompanyEmployee.Entities;
 using CompanyEmployee.Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CompanyEmployee.Repository
 {
@@ -15,15 +17,15 @@ namespace CompanyEmployee.Repository
 
         public void DeleteCompany(Company company) => Delete(company);
 
-        public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
-            FindAll(trackChanges)
+        public async Task<IEnumerable<Company>> GetAllCompanies(bool trackChanges) =>
+            await FindAll(trackChanges)
                 .OrderBy(c => c.Name)
-                .ToList();
+                .ToListAsync();
 
-        public IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges) =>
-            FindByCondition(x => ids.Contains(x.Id), trackChanges).ToList();
+        public async Task<IEnumerable<Company>> GetByIds(IEnumerable<Guid> ids, bool trackChanges) =>
+            await FindByCondition(x => ids.Contains(x.Id), trackChanges).ToListAsync();
 
-        public Company GetCompany(Guid CompanyId, bool trackChanges) =>
-            FindByCondition(c => c.Id.Equals(CompanyId), trackChanges).SingleOrDefault();
+        public async Task<Company> GetCompany(Guid CompanyId, bool trackChanges) =>
+            await FindByCondition(c => c.Id.Equals(CompanyId), trackChanges).SingleOrDefaultAsync();
     }
 }

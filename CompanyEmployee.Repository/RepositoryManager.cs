@@ -3,6 +3,7 @@ using CompanyEmployee.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CompanyEmployee.Repository
 {
@@ -37,6 +38,6 @@ namespace CompanyEmployee.Repository
             }
         }
 
-        public void Save() => _context.SaveChanges();
+        public Task SaveAsync() => _context.SaveChangesAsync();
     }
 }

@@ -1,10 +1,12 @@
 ﻿using CompanyEmployee.Contracts;
 using CompanyEmployee.Entities;
 using CompanyEmployee.Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CompanyEmployee.Repository
 {
@@ -15,12 +17,12 @@ namespace CompanyEmployee.Repository
                 
         }
 
-        public IEnumerable<Employee> GetEmployees(Guid employeeId, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(employeeId), trackChanges)
+        public async Task<IEnumerable<Employee>> GetEmployees(Guid employeeId, bool trackChanges) =>
+             FindByCondition(e => e.CompanyId.Equals(employeeId), trackChanges)
                 .OrderBy(e => e.Name);
 
-        public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges).FirstOrDefault();
+        public async Task<Employee> GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
+            await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges).FirstOrDefaultAsync();
 
         public void CreateEmployeeForCompany(Guid companyId, Employee employee)
         {
