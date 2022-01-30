@@ -3,9 +3,11 @@ using CompanyEmployee.API.ActionFilters;
 using CompanyEmployee.Contracts;
 using CompanyEmployee.Entities.DTOs;
 using CompanyEmployee.Entities.Models;
+using CompanyEmployee.Entities.RequestFeatures;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -28,19 +30,21 @@ namespace CompanyEmployee.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetEmployeesForCompanyAsync(Guid companyId)
+        public async Task<IActionResult> GetEmployeesForCompanyAsync(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
-            var company = _repository.Company.GetCompany(companyId, trackChanges: false);
+            var company = await _repository.Company.GetCompany(companyId, trackChanges: false);
             if(company == null)
             {
                 _logger.LogInfo($"Company with id: {companyId} does not exist in the database");
                 return NotFound();
             }
-            var employees = await _repository.Employee.GetEmployees(companyId, trackChanges: false);
+            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
 
-            var rsp = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(employeesFromDb.MetaData));
 
-            return Ok(rsp);
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
+
+            return Ok(employeesDto);
         }
 
         [HttpGet("{id}", Name = "GetEmployeeForCompany")]
